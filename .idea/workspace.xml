@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b4648d-36da-4c80-bbd0-878648151673" name="Changes" comment="fast_grad_sima">
-      <change afterPath="$PROJECT_DIR$/Newton.py" afterDir="false" />
+    <list default="true" id="b4b4648d-36da-4c80-bbd0-878648151673" name="Changes" comment="Newton">
+      <change afterPath="$PROJECT_DIR$/HJ(svyat).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Newton(svyat).py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fast gradient(svyat).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HJ(sima).py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ(sima).py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fast grafient.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast grafient.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +53,12 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.HD.executor": "Run",
     "Python.HJ(sima).executor": "Run",
+    "Python.HJ(svyat).executor": "Run",
     "Python.HJ.executor": "Run",
+    "Python.Newton(svyat).executor": "Run",
     "Python.Newton.executor": "Run",
     "Python.f.executor": "Run",
+    "Python.fast gradient(svyat).executor": "Run",
     "Python.fast grafient.executor": "Run",
     "Python.lyalya_lyalyalya.executor": "Run",
     "Python.test.executor": "Run",
@@ -111,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757256786271</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Newton">
+      <option name="closed" value="true" />
+      <created>1757261544239</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757261544239</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +139,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HJsima" />
     <MESSAGE value="fast_grad_sima" />
-    <option name="LAST_COMMIT_MESSAGE" value="fast_grad_sima" />
+    <MESSAGE value="Newton" />
+    <option name="LAST_COMMIT_MESSAGE" value="Newton" />
   </component>
 </project>
