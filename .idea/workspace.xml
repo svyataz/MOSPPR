@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4b4648d-36da-4c80-bbd0-878648151673" name="Changes" comment="HJsima">
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="b4b4648d-36da-4c80-bbd0-878648151673" name="Changes" comment="fast_grad_sima">
+      <change afterPath="$PROJECT_DIR$/Newton.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HJ(sima).py" beforeDir="false" afterPath="$PROJECT_DIR$/HJ(sima).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fast grafient.py" beforeDir="false" afterPath="$PROJECT_DIR$/fast grafient.py" afterDir="false" />
@@ -54,6 +54,7 @@
     "Python.HD.executor": "Run",
     "Python.HJ(sima).executor": "Run",
     "Python.HJ.executor": "Run",
+    "Python.Newton.executor": "Run",
     "Python.f.executor": "Run",
     "Python.fast grafient.executor": "Run",
     "Python.lyalya_lyalyalya.executor": "Run",
@@ -94,7 +95,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757173436495</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fast_grad_sima">
+      <option name="closed" value="true" />
+      <created>1757255328058</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1757255328058</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fast_grad_sima">
+      <option name="closed" value="true" />
+      <created>1757256786271</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1757256786271</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HJsima" />
-    <option name="LAST_COMMIT_MESSAGE" value="HJsima" />
+    <MESSAGE value="fast_grad_sima" />
+    <option name="LAST_COMMIT_MESSAGE" value="fast_grad_sima" />
   </component>
 </project>
