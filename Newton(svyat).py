@@ -17,23 +17,23 @@ class fast_grad:
         self.e = e
 
     @staticmethod
-    def f2(x):
+    def f8(x):
         return x[0]**2 - 2*x[0]*x[1] + 6*x[1]**2 + x[0] + x[1]
 
     def derivative_1(self, x, i):
         temp_x = x.copy()
         temp_x[i] += self.e
-        return (fast_grad.f2(temp_x)
-                - fast_grad.f2(x)) / self.e
+        return (fast_grad.f8(temp_x)
+                - fast_grad.f8(x)) / self.e
 
     def derivative_2(self, x, i):
         temp_x = x.copy()
         temp_x[i] += self.e
-        u1 = fast_grad.f2(temp_x)
+        u1 = fast_grad.f8(temp_x)
         temp_x[i] -= self.e
-        u2 = fast_grad.f2(temp_x)
+        u2 = fast_grad.f8(temp_x)
         temp_x[i] -= self.e
-        u3 = fast_grad.f2(temp_x)
+        u3 = fast_grad.f8(temp_x)
         return (u1 - 2  * u2 + u3) / (self.e ** 2)
 
     def derivative_mix(self, x):
@@ -42,10 +42,10 @@ class fast_grad:
         u3_x[1] -= self.e
         u4_x[0] -= self.e
         u4_x[1] -= self.e
-        u1 = fast_grad.f2(x)
-        u2 = fast_grad.f2(u2_x)
-        u3 = fast_grad.f2(u3_x)
-        u4 = fast_grad.f2(u4_x)
+        u1 = fast_grad.f8(x)
+        u2 = fast_grad.f8(u2_x)
+        u3 = fast_grad.f8(u3_x)
+        u4 = fast_grad.f8(u4_x)
         return (u1 - u2 - u3 + u4) / (self.e ** 2)
 
     def main(self):
@@ -59,7 +59,7 @@ class fast_grad:
             print(f"\n\033[3mИТЕРАЦИЯ {k}\n\n\033[0m*")
             print(f"Базисный вектор:\n{x[0]:.4f}\t\t\t{x[1]:.4f}\n")
             print(f"численное значение Базисного вектора:"
-                  f"\n{fast_grad.f2(x):.4f}\n")
+                  f"\n{fast_grad.f8(x):.4f}\n")
             print(f"Координаты вектора градиента:"
                   f"\n{curr_grad[0]:.4f}\t\t\t{curr_grad[1]:.4f}\n")
             print(f"Значение норма вектора:"
@@ -77,7 +77,7 @@ class fast_grad:
                       f"\n{h:.4f}\n")
             print(f"Координаты нового вектора:\n{x[0]:.4f}\t\t\t{x[1]:.4f}\n")
             print(f"численное значениеБазисного вектора:"
-                f"\n{fast_grad.f2(x):.4f}\n")
+                f"\n{fast_grad.f8(x):.4f}\n")
             k += 1
             curr_grad = np.array([self.derivative_1(x, 0),
                                   self.derivative_1(x, 1)])
