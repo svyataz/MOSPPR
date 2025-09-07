@@ -25,7 +25,7 @@ class HJ:
         base = self.start_points
         i = 0
         while self.h >= self.e:
-            print(f"Итерация {i}\n")
+            print(f"\n\033[3mИТЕРАЦИЯ {i}\n\n\033[0m*")
             x = base.copy()
             f0 = HJ.f2(*x)
             print(f"Базисный вектор:\n{x[0]}\t\t\t{x[1]}\n")
